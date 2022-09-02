@@ -1,5 +1,6 @@
 import React from "react"
-import { useState, useEffect } from "react"
+import { useState } from "react"
+import MediaAluno from "./components/mediaAluno/MediaAluno"
 
 export default function App() {
 
@@ -28,11 +29,24 @@ export default function App() {
     return (
         <>
             <h1>CP1 de RWD 2º SEMESTRE</h1>
+            <MediaAluno
+                aluno={aluno}
+                nota1={nota1}
+                nota2={nota2}
+                nota3={nota3}
+            />
         </>
     )
 }
 
 
+
+
+// 3 – Crie um componente chamado MediaAluno. ( 3 Pontos)
+// Esse componente deve receber através de props do componente App.jsx os seguintes
+// dados:
+// a) O objeto aluno.
+// b) As três notas já com valores preenchidos de 0 a 10.
 
 
 // 2 – No App.jsx crie a seguinte estrutura. ( 3 Pontos)
