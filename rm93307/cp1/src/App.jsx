@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import MediaAluno from './components/mediaAluno/MediaAluno'
 
 export default function App(){
 
@@ -15,6 +16,12 @@ export default function App(){
     return(
         <>
             <h1>CP1 de RWD 2° SEMESTRE</h1>
+            <MediaAluno
+                aluno = {aluno}
+                nota1 = {nota1}
+                nota2 = {nota2}
+                nota3 = {nota3}
+            />
         </>
     )
 }
