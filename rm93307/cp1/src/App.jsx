@@ -9,9 +9,9 @@ export default function App(){
         turma : '1TDSS'
     })
 
-    const nota1 = 3
-    const nota2 = 5
-    const nota3 = 3
+    const nota1 = 0
+    const nota2 = 0
+    const nota3 = 0
 
     return(
         <>
