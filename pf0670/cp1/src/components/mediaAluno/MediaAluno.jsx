@@ -1,4 +1,5 @@
 import React from "react"
+import './MediaAluno.css'
 
 export default function MediaAluno(props) {
 
@@ -27,10 +28,10 @@ export default function MediaAluno(props) {
     return (
         <div>
             <h2>COMPONENTE MÉDIA-ALUNO</h2>
-            <div>
-                <p><strong>Aluno : </strong> {props.aluno.nome}</p>
-                <p><strong>RM : </strong> {props.aluno.rm}</p>
-                <p><strong>Turma : </strong> {props.aluno.turma}</p>
+            <div className="row">
+                <p className="col-med"><strong>Aluno : </strong> {props.aluno.nome}</p>
+                <p className="col-med"><strong>RM : </strong> {props.aluno.rm}</p>
+                <p className="col-med"><strong>Turma : </strong> {props.aluno.turma}</p>
                 <p>{calculaMedia()}</p>
             </div>
         </div>
