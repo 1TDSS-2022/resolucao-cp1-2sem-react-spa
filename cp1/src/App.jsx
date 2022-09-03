@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import MediaAluno from "./components/MediaAluno";
+import MediaAluno from "./components/mediaAluno/MediaAluno";
 
 export default function App(){
 
