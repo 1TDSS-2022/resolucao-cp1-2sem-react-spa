@@ -1,0 +1,34 @@
+// Declarar variáveis
+$cor-do-fundo: #ccffdd;
+$cor-do-texto: #ff0000;
+$segunda-cor-texto: #094e20;
+$minha-fonte: "Consolas";
+$alinhamento: center;
+$largura: 50vw;
+
+/// CRIANDO O MIXING
+@mixin meumixin($tamanho-fonte) {
+    border: solid 2px blue;
+    background-color: #380202;
+    color: $cor-do-texto;
+    font-family: $minha-fonte;
+    font-size: $tamanho-fonte;
+}
+
+body {
+    background-color: $cor-do-fundo;
+    color: $cor-do-texto;
+    font-family: $minha-fonte, Helvetica, sans-serif;
+    text-align: $alinhamento;
+    width: $largura + 50vw;
+    $cor-do-p: sandybrown;
+
+    .divTeste {
+
+        @include meumixin(2rem);
+
+        p {
+            color: $cor-do-p;
+        }
+    }
+}

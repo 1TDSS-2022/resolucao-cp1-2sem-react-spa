@@ -1,5 +1,5 @@
 import React from "react"
-import './MediaAluno.css'
+import './mediaAluno.css'
 
 export default function MediaAluno(props) {
 
