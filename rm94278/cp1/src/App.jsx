@@ -20,6 +20,14 @@ export default function App() {
     return (
         <>
             <h1>CP1 de RWD Segundo SEMESTRE</h1>
+
+            <div className="divTest">
+                Escopo da Div 
+                <p>
+                    Escopo do p
+                </p>
+            </div>
+
             <MediaAluno
                 aluno = {aluno}
                 nota1 = {nota1}
