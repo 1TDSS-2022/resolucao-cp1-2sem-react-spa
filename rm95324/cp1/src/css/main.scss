@@ -1,3 +1,6 @@
+// Utilizando o partials
+@import 'titulo';
+
 // Declarar variáveis
 $cor-do-fundo: #ccffdd;
 $cor-do-texto: #ff0000;
@@ -6,7 +9,7 @@ $minha-fonte: "Consolas";
 $alinhamento: center;
 $largura: 50vw;
 
-/// CRIANDO O MIXING
+// CRIANDO O MIXING
 @mixin meumixin($tamanho-fonte) {
     border: solid 2px blue;
     background-color: #380202;
