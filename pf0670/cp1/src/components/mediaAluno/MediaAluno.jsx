@@ -32,7 +32,7 @@ export default function MediaAluno(props) {
                 <p className="col-med"><strong>Aluno : </strong> {props.aluno.nome}</p>
                 <p className="col-med"><strong>RM : </strong> {props.aluno.rm}</p>
                 <p className="col-med"><strong>Turma : </strong> {props.aluno.turma}</p>
-                <p>{calculaMedia()}</p>
+                <p className="pMedia">{calculaMedia()}</p>
             </div>
         </div>
     )
