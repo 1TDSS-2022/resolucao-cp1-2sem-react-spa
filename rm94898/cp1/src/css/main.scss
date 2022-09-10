@@ -1,0 +1,42 @@
+//UTILIZANDO O PARTIALS
+@import 'titulo';
+
+$cor-de-fundo: rgb(128, 128, 128);
+$cor-texto: rgb(155, 0, 0);
+$minha-fonte : "Consolas";
+$alinhamento: center;
+$cor-do-p: blue;
+$cor-do-texto2: rgba(27, 199, 36, 0.867);
+
+
+// Criando o mixing
+
+@mixin meumixin($tamanho-fonte) {
+    border:  2px solid black;
+    background-color: rgba(41, 0, 0, 0.664);
+    color: $cor-texto;
+    font-family: $minha-fonte;
+    font-size: $tamanho-fonte;
+}
+
+
+
+
+body{
+    background-color: $cor-de-fundo;
+    color: $cor-texto;
+    font-family: $minha-fonte;
+    text-align: $alinhamento;
+
+    .divTeste{
+        
+        @include meumixin(2rem);
+
+        // color: $cor-do-texto2;
+        p{
+            color: $cor-do-p;
+        }
+    }
+
+}
+
