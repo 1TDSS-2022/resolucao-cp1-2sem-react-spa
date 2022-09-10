@@ -1,0 +1,36 @@
+@import _titulo;
+
+
+$cor-de-fundo : #ccffdd;
+$cor-do-texto : #ff0000;
+$segund-cor-texto: #06546f;
+$minha-fonte : "Consolas";
+$alinhamento : center;
+$largura : 100wd;
+
+//Criando mixin
+@mixin meumixin($tamanho-fonte){
+    border: solid 2px blue;
+    background-color: #500c0c;
+    color: $cor-do-texto;
+    font-family: $minha-fonte;
+    font-size: $tamanho-fonte;
+}
+
+body{
+    background-color: $cor-de-fundo;
+    color: $cor-do-texto;
+    font-family: $minha-fonte, Helvetica, sans-serif;
+    text-align: $alinhamento;
+    width: ($largura - 10vw);
+    $cor-do-p : blue;
+
+    .divTeste {
+        @include meumixin(2rem);
+        p{
+        color: $cor-do-p;
+        }
+    }
+
+
+}
