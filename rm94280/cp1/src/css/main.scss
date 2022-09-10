@@ -1,0 +1,43 @@
+//ULTILIZANDO PARTIALS 
+@import 'titulo';
+
+
+
+
+
+//DECLARAR VARIAVEIS
+$cor-de-fundo : #ccffdd;
+$cor-do-texto: #ff0000;
+$segunda-cor-do-texto: #094e20;
+$minha-fonte: "Consolas";
+$alinhamento: center;
+$largura: 100vw;
+
+//CRIANDO MIXIN
+@mixin meumixin ($tamanho-fonte){
+    border: solid 2px blue;
+    background-color: #380202;
+    color: $cor-do-texto;
+    font-family: $minha-fonte;
+    font-size: $tamanho-fonte;
+}
+
+body{
+    background-color: $cor-de-fundo;
+    color: $cor-do-texto;
+    font-family: $minha-fonte;
+    text-align: $alinhamento;
+    width: $largura;
+    $cor-do-p: blue;
+        
+    .divTeste{
+        @include meumixin(2rem);
+        
+        p{
+            color: $cor-do-p;
+        }
+    }
+}
+
+
+
