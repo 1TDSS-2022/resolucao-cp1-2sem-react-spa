@@ -1,0 +1,29 @@
+
+/*
+vh = VIEW HEIGHT
+vw = VIEW WIDTH
+
+*/
+
+.pMedia{
+    color:#0000ff; 
+}
+
+.row{
+    background-color: #000000;
+    margin: auto 10vw;
+    font-size: 1.2rem;
+    border: 3px #FF0000 solid;
+    border-radius: 5px;
+    
+
+}
+
+.col-med{
+    background-color: #fff;
+    text-align: center;
+    padding:0 20vw;
+    width: 30vw;
+    margin: 4vh auto;
+    color:#000000 !important;
+}
