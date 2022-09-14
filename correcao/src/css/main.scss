@@ -1,0 +1,33 @@
+// declarar variaveis
+
+$cor-de-fundo:#ccffdd;
+$cor-do-texto:#ef0d0d;
+$minha-fonte:"Consolas";
+$alinhamento:center;
+$largura:100vw; 
+
+
+
+
+body{
+    background-color:$cor-de-fundo ;
+    font-family: Sminha-fonte,Arial, Helvetica, sans-serif;
+    text-align: $alinhamento;
+    width: $largura;
+    color: $cor-do-texto;
+   
+    $teste:rgb(215, 232, 27);
+    .divTeste {
+
+        color:teste;
+        p{
+            color:orange;
+        }
+        
+    }
+}
+
+    
+
+
+

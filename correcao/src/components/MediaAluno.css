@@ -1,0 +1,28 @@
+
+/* vh = view Height
+   vw = view width 
+ */
+
+
+
+.row{
+    background-color: black;
+    margin: auto 10vw;
+    font-size: 1.2rem;
+    border: 2px #FF0000 solid;
+    border-radius: 5px;
+    
+}
+
+.col-med{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 0 20vw;
+    width: 30vw;
+    margin: 4.1vh auto;
+
+}
+
+.pmedia{
+    color: chartreuse;
+}

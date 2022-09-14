@@ -1,0 +1,13 @@
+body {
+  background-color: #ccffdd;
+  font-family: Sminha-fonte, Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 100vw;
+  color: #ef0d0d;
+}
+body .divTeste {
+  color: teste;
+}
+body .divTeste p {
+  color: orange;
+}/*# sourceMappingURL=main.css.map */
